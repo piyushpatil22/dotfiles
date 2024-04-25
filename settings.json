@@ -44,6 +44,7 @@
 	"vim.cursorStylePerMode.normal": "block",
 	"vim.leader": "<Space>",
 	"vim.smartRelativeLine": true,
+	"vim.highlightedyank.enable": true,
 	"vim.insertModeKeyBindings": [
 		{
 			"before": [
@@ -64,7 +65,25 @@
 			]
 		}
 	],
-	"vim.normalModeKeyBindings": [
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"leader",
+				"w"
+			],
+			"commands": [
+				"workbench.action.files.save"
+			]
+		},
+		{
+			"before": [
+				"ctrl",
+				"b"
+			],
+			"commands": [
+				"workbench.action.toggleSidebarVisibility"
+			]
+		},
 		{
 			"before": [
 				"k"
@@ -288,5 +307,16 @@
 	"terminal.external.linuxExec": "zsh",
 	"indentRainbow.lightIndicatorStyleLineWidth": 3,
 	"indentRainbow.indicatorStyle": "light",
-	"workbench.activityBar.location": "hidden"
+	"workbench.editor.revealIfOpen": true,
+	"workbench.activityBar.location": "hidden",
+	//go
+	"go.formatTool": "default",
+	"[go]": {
+		"editor.insertSpaces": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "always"
+		},
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "golang.go"
+	}
 }

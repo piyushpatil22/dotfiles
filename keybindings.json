@@ -31,5 +31,24 @@
         "key": "ctrl+shift+j",
         "command": "workbench.action.closePanel",
         "when": "!terminalFocus || terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.closeSidebar",
+                "workbench.action.activityBarLocation.hide"
+            ]
+        }
+    },
+    {
+        "key": "space w",
+        "command": "workbench.action.files.save",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save"
     }
 ]
