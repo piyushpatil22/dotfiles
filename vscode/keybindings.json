@@ -41,14 +41,5 @@
                 "workbench.action.activityBarLocation.hide"
             ]
         }
-    },
-    {
-        "key": "space w",
-        "command": "workbench.action.files.save",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+s",
-        "command": "-workbench.action.files.save"
     }
 ]
