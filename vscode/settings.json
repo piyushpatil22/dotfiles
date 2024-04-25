@@ -308,7 +308,6 @@
 	"indentRainbow.lightIndicatorStyleLineWidth": 3,
 	"indentRainbow.indicatorStyle": "light",
 	"workbench.editor.revealIfOpen": true,
-	"workbench.activityBar.location": "hidden",
 	//go
 	"go.formatTool": "default",
 	"[go]": {
