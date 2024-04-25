@@ -1,249 +1,292 @@
 {
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "workbench.colorTheme": "Catppuccin Mocha",
-    // terminal related config 
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "scm.inputFontFamily": "Geist Mono",
-    "chat.editor.fontFamily": "Geist Mono",
-    "debug.console.fontFamily": "Geist Mono",
-    "notebook.output.fontFamily": "Geist Mono",
-    "markdown.preview.fontFamily": "Geist Mono",
-    "editor.inlayHints.fontFamily": "Geist Mono",
-    "files.autoSave": "afterDelay",
-    //git
-    "diffEditor.ignoreTrimWhitespace": true,
-    "git.suggestSmartCommit": false,
-    "git.confirmSync": false,
-    "git.openRepositoryInParentFolders": "never",
-    //editor
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 14,
-    "editor.letterSpacing": 0.4,
-    "editor.lineHeight": 1.5,
-    "editor.linkedEditing": true,
-    "editor.stickyScroll.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
-    "editor.scrollbar.verticalScrollbarSize": 0,
-    "editor.formatOnSave": true,
-    "editor.fontLigatures": true,
-    "editor.cursorStyle": "block",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.codeLensFontFamily": "Geist Mono",
-    "editor.acceptSuggestionOnCommitCharacter": true,
-    "editor.acceptSuggestionOnEnter": "smart",
-    //vim config
-    "vim.cursorStylePerMode.insert": "block",
-    "vim.cursorStylePerMode.normal": "block",
-    "vim.leader": "<Space>",
-    "vim.smartRelativeLine": true,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                "<leader>",
-                "t"
-            ],
-            "commands": [
-                "workbench.action.terminal.toggleTerminal"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "p"
-            ],
-            "commands": [
-                "workbench.action.quickOpen"
-            ]
-        },
-        {
-            "before": [
-                "<S-h>"
-            ],
-            "commands": [
-                ":bprevious"
-            ]
-        },
-        {
-            "before": [
-                "<S-l>"
-            ],
-            "commands": [
-                ":bnext"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "v"
-            ],
-            "commands": [
-                ":vsplit"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "s"
-            ],
-            "commands": [
-                ":split"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "w"
-            ],
-            "commands": [
-                ":w!"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "q"
-            ],
-            "commands": [
-                ":q!"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "x"
-            ],
-            "commands": [
-                ":x!"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "h"
-            ],
-            "commands": [
-                "workbench.action.focusLeftGroup"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "j"
-            ],
-            "commands": [
-                "workbench.action.focusBelowGroup"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "k"
-            ],
-            "commands": [
-                "workbench.action.focusAboveGroup"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "l"
-            ],
-            "commands": [
-                "workbench.action.focusRightGroup"
-            ]
-        },
-        {
-            "before": [
-                "[",
-                "d"
-            ],
-            "commands": [
-                "editor.action.marker.prev"
-            ]
-        },
-        {
-            "before": [
-                "]",
-                "d"
-            ],
-            "commands": [
-                "editor.action.marker.next"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "c",
-                "a"
-            ],
-            "commands": [
-                "editor.action.quickFix"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "f"
-            ],
-            "commands": [
-                "workbench.action.quickOpen"
-            ]
-        },
-        {
-            "before": [
-                "g",
-                "h"
-            ],
-            "commands": [
-                "editor.action.showDefinitionPreviewHover"
-            ]
-        },
-        {
-            "before": [
-                "leader",
-                "c",
-                "c"
-            ],
-            "commands": [
-                "editor.action.commentLine"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindings": [
-        {
-            "before": [
-                "leader",
-                "c"
-            ],
-            "commands": [
-                "editor.action.commentLine"
-            ]
-        },
-        {
-            "before": [
-                "J"
-            ],
-            "commands": [
-                "editor.action.moveLinesDownAction"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "editor.action.moveLinesUpAction"
-            ]
-        }
-    ],
-    "window.menuBarVisibility": "toggle",
-    "background.windowBackgrounds": [
-        "/home/epsilon/Pictures/walls/anime-girl.jpg"
-    ],
-    "workbench.activityBar.location": "hidden",
-    "editor.renderWhitespace": "none",
-    "editor.renderControlCharacters": false,
-    "breadcrumbs.enabled": false,
+	//workbench
+	"workbench.iconTheme": "eq-material-theme-icons-darker",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	// terminal
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"scm.inputFontFamily": "Geist Mono",
+	"chat.editor.fontFamily": "Geist Mono",
+	"debug.console.fontFamily": "Geist Mono",
+	"notebook.output.fontFamily": "Geist Mono",
+	"markdown.preview.fontFamily": "Geist Mono",
+	"editor.inlayHints.fontFamily": "Geist Mono",
+	"files.autoSave": "afterDelay",
+	"window.menuBarVisibility": "toggle",
+	//git
+	"diffEditor.ignoreTrimWhitespace": true,
+	"git.suggestSmartCommit": false,
+	"git.confirmSync": false,
+	"git.openRepositoryInParentFolders": "never",
+	//editor
+	"editor.minimap.enabled": false,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 14,
+	"editor.letterSpacing": 0.4,
+	"editor.lineHeight": 1.5,
+	"editor.linkedEditing": true,
+	"editor.stickyScroll.enabled": false,
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"editor.formatOnSave": true,
+	"editor.fontLigatures": true,
+	"editor.cursorStyle": "block",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"editor.codeLensFontFamily": "Geist Mono",
+	"editor.acceptSuggestionOnCommitCharacter": true,
+	"editor.acceptSuggestionOnEnter": "smart",
+	"editor.renderWhitespace": "selection",
+	"editor.trimAutoWhitespace": true,
+	"editor.renderControlCharacters": false,
+	"indentRainbow.colorOnWhiteSpaceOnly": true,
+	//vim config
+	"vim.cursorStylePerMode.insert": "block",
+	"vim.cursorStylePerMode.normal": "block",
+	"vim.leader": "<Space>",
+	"vim.smartRelativeLine": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"j",
+				"k"
+			],
+			"after": [
+				"<C-[>"
+			]
+		},
+		{
+			"before": [
+				"j",
+				"j"
+			],
+			"after": [
+				"<C-[>"
+			]
+		}
+	],
+	"vim.normalModeKeyBindings": [
+		{
+			"before": [
+				"k"
+			],
+			"after": [
+				"k",
+				"z",
+				"z"
+			]
+		},
+		{
+			"before": [
+				"j"
+			],
+			"after": [
+				"j",
+				"z",
+				"z"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"t"
+			],
+			"commands": [
+				"workbench.action.terminal.toggleTerminal"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"p"
+			],
+			"commands": [
+				"workbench.action.quickOpen"
+			]
+		},
+		{
+			"before": [
+				"<S-h>"
+			],
+			"commands": [
+				":bprevious"
+			]
+		},
+		{
+			"before": [
+				"<S-l>"
+			],
+			"commands": [
+				":bnext"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"v"
+			],
+			"commands": [
+				":vsplit"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"s"
+			],
+			"commands": [
+				":split"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"w"
+			],
+			"commands": [
+				":w!"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"q"
+			],
+			"commands": [
+				":q!"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"x"
+			],
+			"commands": [
+				":x!"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"h"
+			],
+			"commands": [
+				"workbench.action.focusLeftGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"j"
+			],
+			"commands": [
+				"workbench.action.focusBelowGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"k"
+			],
+			"commands": [
+				"workbench.action.focusAboveGroup"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"l"
+			],
+			"commands": [
+				"workbench.action.focusRightGroup"
+			]
+		},
+		{
+			"before": [
+				"[",
+				"d"
+			],
+			"commands": [
+				"editor.action.marker.prev"
+			]
+		},
+		{
+			"before": [
+				"]",
+				"d"
+			],
+			"commands": [
+				"editor.action.marker.next"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"c",
+				"a"
+			],
+			"commands": [
+				"editor.action.quickFix"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"f"
+			],
+			"commands": [
+				"workbench.action.quickOpen"
+			]
+		},
+		{
+			"before": [
+				"g",
+				"h"
+			],
+			"commands": [
+				"editor.action.showDefinitionPreviewHover"
+			]
+		},
+		{
+			"before": [
+				"leader",
+				"c",
+				"c"
+			],
+			"commands": [
+				"editor.action.commentLine"
+			]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [
+				"leader",
+				"c"
+			],
+			"commands": [
+				"editor.action.commentLine"
+			]
+		},
+		{
+			"before": [
+				"J"
+			],
+			"commands": [
+				"editor.action.moveLinesDownAction"
+			]
+		},
+		{
+			"before": [
+				"K"
+			],
+			"commands": [
+				"editor.action.moveLinesUpAction"
+			]
+		}
+	],
+	"breadcrumbs.enabled": false,
+	"terminal.external.linuxExec": "zsh",
+	"indentRainbow.lightIndicatorStyleLineWidth": 3,
+	"indentRainbow.indicatorStyle": "light",
+	"workbench.activityBar.location": "hidden"
 }
