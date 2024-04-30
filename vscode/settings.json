@@ -2,6 +2,7 @@
 	//workbench
 	"workbench.iconTheme": "eq-material-theme-icons-darker",
 	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.startupEditor": "none",
 	// terminal
 	"terminal.integrated.fontFamily": "JetBrains Mono",
 	"scm.inputFontFamily": "Geist Mono",
