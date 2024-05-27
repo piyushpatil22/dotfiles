@@ -183,5 +183,7 @@
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "svelte.enable-ts-plugin": true,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "window.zoomLevel": 4,
+    "amazonQ.telemetry": false
 }
